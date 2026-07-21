@@ -31,3 +31,7 @@ Cuando se conecta a la API real, el panel refleja el estado en vivo de los agent
 ---
 
 Desarrollado por [@Alonex-x](https://github.com/Alonex-x). Proyecto educativo y de portafolio.
+
+---
+
+Este proyecto forma parte del [Ecosistema Nexus](https://github.com/Alonex-x/nexus-agent-api/blob/main/ECOSYSTEM.md).
