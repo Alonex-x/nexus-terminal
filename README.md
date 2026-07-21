@@ -8,9 +8,9 @@ Panel de control visual del **ecosistema Nexus**, un sistema de monitoreo y orqu
 
 Ver Nexus Terminal en acción: [https://alonex-x.github.io/nexus-terminal/](https://alonex-x.github.io/nexus-terminal/)
 
-## Captura de pantalla
+## Demostración en video
 
-*(Pendiente de agregar: una captura del panel con los agentes activos.)*
+[Ver demo del Nexus Terminal](demos/demo-nexus-terminal.mp4)
 
 ## Conexión con el ecosistema
 
