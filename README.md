@@ -35,3 +35,5 @@ Desarrollado por [@Alonex-x](https://github.com/Alonex-x). Proyecto educativo y 
 ---
 
 Este proyecto forma parte del [Ecosistema Nexus](https://github.com/Alonex-x/nexus-agent-api/blob/main/ECOSYSTEM.md).
+
+**Nota:** Este proyecto es una SPA (Single Page Application) autocontenida en un solo archivo HTML por diseño. Toda la lógica, estilos y renderizado 3D residen en `index.html` sin dependencias de frameworks.
