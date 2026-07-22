@@ -2,40 +2,35 @@
 
 ![Nexus Terminal](https://img.shields.io/badge/Nexus-Terminal-v2.6-9D00FF?style=flat-square)
 
-Panel de control visual del **ecosistema Nexus**, un sistema de monitoreo y orquestación de agentes de software. Este repositorio contiene la interfaz de usuario, diseñada con estética CRT y visualización en tiempo real de agentes, misiones y eventos.
+Visual control panel for the Nexus ecosystem, a monitoring and orchestration system for software agents. This repository contains the user interface, designed with CRT aesthetics and real-time visualization of agents, missions, and events.
 
-## Demo en vivo
+## Live Demo
 
-Ver Nexus Terminal en acción: [https://alonex-x.github.io/nexus-terminal/](https://alonex-x.github.io/nexus-terminal/)
+See Nexus Terminal in action: https://alonex-x.github.io/nexus-terminal/
 
-## Demostración
+## Demo
 
-![Demo del Nexus Terminal](demos/demo-nexus-terminal.gif)
+[Watch the demo video](demos/demo-nexus-terminal.mp4)
 
-[Ver video completo](demos/demo-nexus-terminal.mp4)
+## Connection to the Ecosystem
 
-## Conexión con el ecosistema
+Nexus Terminal is part of the Nexus ecosystem, which includes:
+- Nexus Agent Management API (Java/Spring Boot)
+- Nexus Scraper (Python/Playwright)
+- And more agents under development.
 
-El **Nexus Terminal** es parte del ecosistema Nexus, que incluye:
-- [Nexus Agent Management API](https://github.com/Alonex-x/nexus-agent-api) – Backend central (Java/Spring Boot).
-- [Nexus Scraper](https://github.com/Alonex-x/nexus-scraper) – Agente de web scraping (Python/Playwright).
-- Y más agentes en desarrollo.
+When connected to the real API, the panel reflects the live status of agents and allows interaction with the ecosystem through an integrated terminal.
 
-Cuando se conecta a la API real, el panel refleja el estado en vivo de los agentes y permite interactuar con el ecosistema a través de una terminal integrada.
+Note: This project is a Single Page Application (SPA) contained in a single HTML file by design. All logic, styles, and 3D rendering reside in index.html without framework dependencies.
 
-## Tecnologías
+## Technologies
 
-- HTML5, CSS3 (variables, animaciones, CRT tilt, scanlines)
-- JavaScript vanilla (ES6, sin frameworks)
-- Three.js (orbe 3D animado)
-- Fuentes: JetBrains Mono, VT323 (Google Fonts)
-
----
-
-Desarrollado por [@Alonex-x](https://github.com/Alonex-x). Proyecto educativo y de portafolio.
+- HTML5, CSS3 (variables, animations, CRT tilt, scanlines)
+- Vanilla JavaScript (ES6, no frameworks)
+- Three.js (animated 3D orb)
+- Fonts: JetBrains Mono, VT323 (Google Fonts)
 
 ---
 
-Este proyecto forma parte del [Ecosistema Nexus](https://github.com/Alonex-x/nexus-agent-api/blob/main/ECOSYSTEM.md).
+Developed by @Alonex-x. Educational and portfolio project.
 
-**Nota:** Este proyecto es una SPA (Single Page Application) autocontenida en un solo archivo HTML por diseño. Toda la lógica, estilos y renderizado 3D residen en `index.html` sin dependencias de frameworks.
